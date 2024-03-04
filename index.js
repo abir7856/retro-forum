@@ -1,6 +1,3 @@
-
-
-
 const newDiv = document.getElementById('main-div');
 const spinner = document.getElementById('spinner');
 const mainDiv = document.getElementById('item-container');
@@ -16,9 +13,7 @@ const allPost = async (all, valu) => {
                     <div class="relative w-[50px]">
                         <img class="p-2 w-28 rounded-md bg-white" src="${item.image}" alt="">
                         <div class="h-3 w-3 active-color rounded-full ${item.isActive ? 'bg-green-500' : 'bg-red-500'} absolute -top-1 -right-1">
-                      
-                        
-                        </div>
+                      </div>
 
                     </div>
                     <div>
@@ -49,14 +44,10 @@ const allPost = async (all, valu) => {
                                 <button onclick= "modalOpen('${escape(item.title)}', '${item.view_count}')"><img src="./images/Group.png" alt=""></button>
 
                             </div>
-
-                          
                         </div>
                     </div>
                 </div> 
-                
-                
-        `;
+                 `;
 
         newDiv.appendChild(div);
 
