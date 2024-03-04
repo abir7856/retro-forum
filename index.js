@@ -57,14 +57,12 @@ const allPost = async (all, valu) => {
                 
                 
         `;
-        // console.log(item.description)
 
         newDiv.appendChild(div);
 
     });
 };
-    
-//   function logo = ()
+
 
 
 
